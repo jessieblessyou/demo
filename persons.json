@@ -1,0 +1,11 @@
+{"_id":{"$oid":"5ba78b7da214211d81b827a8"},"name":"jim","age":25.0,"email":"75431457@qq.com","c":89.0,"m":96.0,"e":87.0,"country":"USA","books":["JS","C++","EXTJS","MONGODB"],"size":4.0,"school":[{"school":"K","score":"A"},{"school":"L","score":"B"},{"school":"J","score":"A+"}]}
+{"_id":{"$oid":"5ba78b7da214211d81b827a9"},"name":"tom","age":25.0,"email":"214557457@qq.com","c":75.0,"m":66.0,"e":97.0,"country":"USA","books":["PHP","JAVA","EXTJS","C++","oracle"],"size":5.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827aa"},"name":"lili","age":26.0,"email":"344521457@qq.com","c":75.0,"m":63.0,"e":97.0,"country":"USA","books":["JS","JAVA","C#","MONGODB"],"size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827ab"},"name":"zhangsan","age":27.0,"email":"2145567457@qq.com","c":89.0,"m":86.0,"e":67.0,"country":"China","books":["JS","JAVA","EXTJS","MONGODB"],"sex":"m","size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827ac"},"name":"lisi","age":26.0,"email":"274521457@qq.com","c":53.0,"m":96.0,"e":83.0,"country":"China","books":["JS","C#","PHP","MONGODB"],"sex":"m","size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827ad"},"name":"wangwu","age":27.0,"email":"65621457@qq.com","c":45.0,"m":65.0,"e":99.0,"country":"China","books":["JS","JAVA","C++","MONGODB"],"sex":"m","size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827ae"},"name":"zhaoliu","age":27.0,"email":"214521457@qq.com","c":99.0,"m":96.0,"e":97.0,"country":"China","books":["JS","JAVA","EXTJS","PHP"],"sex":"m","size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827af"},"name":"piaoyingjun","age":26.0,"email":"piaoyingjun@uspcat.com","c":39.0,"m":54.0,"e":53.0,"country":"Korea","books":["JS","C#","EXTJS","MONGODB"],"size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827b0"},"name":"lizhenxian","age":27.0,"email":"lizhenxian@uspcat.com","c":35.0,"m":56.0,"e":47.0,"country":"Korea","books":["JS","JAVA","EXTJS","MONGODB"],"size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827b1"},"name":"lixiaoli","age":21.0,"email":"lixiaoli@uspcat.com","c":36.0,"m":86.0,"e":32.0,"country":"Korea","books":["JS","JAVA","PHP","MONGODB"],"size":4.0}
+{"_id":{"$oid":"5ba78b7da214211d81b827b2"},"name":"zhangsuying","age":22.0,"email":"zhangsuying@uspcat.com","c":45.0,"m":63.0,"e":77.0,"country":"Korea","books":["JS","JAVA","C#","MONGODB"],"size":4.0}
