@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>share</title>
+<style>
+
+ul li{
+	display: inline;
+}
+
+a:link{
+	color:#445;
+   	background-color: #eb6;
+}
+
+a:visited{
+	color: #345;
+	background-color: #eb6;
+}
+
+a:hover{
+	color:#667;
+	background-color: #fb5;
+}
+
+a:active{
+	color: #778;
+	background-color: #ec8;
+}
+
+
+li a.here:link,li a.here:visited,li a.here:hover,li a.here:active{
+	color:#eef;
+	background-color: red;
+}
+
+</style>
+<script>
+
+function insertAfter(newElement,targetElement)
+{
+	var parent=targetElement.parentNode;
+	if(parent.lastChild==targetElement)
+	{
+		parent.appendChild(newElement);
+	}
+	else
+	{
+		parent.insertBefore(newElement,targetElement.nextSibling);
+	}
+
+} 
+
+window.onload=function()
+{
+  	var aUl=document.getElementsByTagName("ul");
+  	var aLi=aUl[0].getElementsByTagName("li");
+  	var a=aLi.length;
+
+  	var targetName=aLi[aLi.length-3];
+
+  	var newElement=document.createElement("li");
+    var txt=document.createTextNode("5");
+    newElement.appendChild(txt); 
+
+    insertAfter(newElement,targetName);
+}
+
+</script> 
+</head>
+<body>
+<ul>
+	<li><a href="" class="here">1</a></li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+</ul>
+</body>
+</html>
